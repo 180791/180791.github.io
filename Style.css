@@ -1,0 +1,64 @@
+﻿body {
+	font-family: Verdana,Arial,Microsoft JhengHei;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #444;
+}
+
+#notice {
+	border: 1px solid #aaa;
+	width: 350px;
+	padding: 10px;
+	position: absolute;
+	left: 40%;
+}
+
+.bulletin_conl_footer {
+	position: relative;
+	margin-top: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center
+}
+
+button {
+	padding: 5px;
+	border: 1px solid #666;
+	background: #fff;
+}
+
+	button:hover {
+		background: #ddd;
+	}
+
+.btn_clear {
+	margin-top: 200px;
+	color: #a00;
+	font-weight: bold;
+}
+
+.page {
+	margin: 5px 0px 20px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+	.page a {
+		color: #069;
+		text-decoration: none;
+	}
+
+		.page a:hover {
+			color: #2096d1;
+			text-decoration: none;
+		}
